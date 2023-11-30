@@ -42,3 +42,23 @@ li {
 li li {
   list-style-type: circle;
 }
+li:first-of-type + li {
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+div:first-of-type + p {
+  color: chartreuse;
+  background-color: deeppink;
+}
+
+/* also not working :( */
+section:first-of-type + a {
+  color: mediumslateblue;
+}
+
+.improve,
+li {
+  text-decoration-line: underline;
+  background-color: white;
+  text-decoration-thickness: 2px;
+}
