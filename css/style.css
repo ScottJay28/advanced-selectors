@@ -1,0 +1,15 @@
+a[href] {
+  color: red;
+}
+a [href="https://www.facebook.com"]
+{
+  color: purple;
+}
+
+a [title="nelly website"] {
+  color: green;
+}
+
+body {
+  background-color: burlywood;
+}
