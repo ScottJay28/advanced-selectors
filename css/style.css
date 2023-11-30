@@ -14,7 +14,6 @@ body {
   text-align: center;
 }
 
-/* this is definitely wrong. not showing up */
 .nestedselector {
   text-decoration: underline;
   & > a {
@@ -22,7 +21,24 @@ body {
     color: aqua;
   }
 }
-
+/* this is definitely wrong. not showing up */
 linkedin|* {
   color: green;
+  text-transform: capitalize;
+}
+
+span {
+  background-color: black;
+  color: crimson;
+}
+div > span {
+  background-color: dimgray;
+  color: darkorange;
+}
+
+li {
+  list-style-type: disc;
+}
+li li {
+  list-style-type: circle;
 }
