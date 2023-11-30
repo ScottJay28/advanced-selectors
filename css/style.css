@@ -2,11 +2,22 @@ a [href="https://www.facebook.com"]
 {
   color: purple;
 }
-
+a[href] {
+  color: red;
+}
 a [title="nelly website"] {
   color: green;
 }
 
 body {
   background-color: burlywood;
+}
+.reference {
+  text-align: center;
+}
+.h2text {
+  text-decoration-thickness: 10px;
+  .p1text {
+    text-align: left;
+  }
 }
