@@ -2,10 +2,8 @@ a [href="https://www.facebook.com"]
 {
   color: purple;
 }
-a[href] {
-  color: red;
-}
-a [title="nelly website"] {
+
+a[title="nellywebsite"] {
   color: green;
 }
 
@@ -15,9 +13,16 @@ body {
 .reference {
   text-align: center;
 }
-.h2text {
-  text-decoration-thickness: 10px;
-  .p1text {
-    text-align: left;
+
+/* this is definitely wrong. not showing up */
+.nestedselector {
+  text-decoration: underline;
+  & > a {
+    text-align: right;
+    color: aqua;
   }
+}
+
+linkedin|* {
+  color: green;
 }
