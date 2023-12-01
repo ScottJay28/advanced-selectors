@@ -1,4 +1,4 @@
-a [href="https://www.facebook.com"]
+a[href="https://www.facebook.com"]
 {
   color: purple;
 }
@@ -22,7 +22,8 @@ body {
   }
 }
 /* this is definitely wrong. not showing up */
-linkedin|* {
+*[href="http://www.linkedin.com"]
+{
   color: green;
   text-transform: capitalize;
 }
@@ -47,14 +48,14 @@ li:first-of-type + li {
   text-decoration-line: underline;
   text-transform: uppercase;
 }
-div:first-of-type + p {
+div p:first-of-type {
   color: chartreuse;
   background-color: deeppink;
 }
 
-/* also not working :( */
-section:first-of-type + a {
-  color: mediumslateblue;
+.important a:first-of-type {
+  color: black;
+  text-transform: capitalize;
 }
 
 .improve,
